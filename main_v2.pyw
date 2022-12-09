@@ -202,7 +202,7 @@ def on_draw():
 
 
 if __name__ == '__main__':
-    gl.glClearColor(*BG_COLOR)  # цвет окна
+    gl.glClearColor(*BG_COLOR)  # color window
     gl.glEnable(gl.GL_BLEND)
     gl.glBlendFunc(gl.GL_SRC_ALPHA, gl.GL_ONE_MINUS_SRC_ALPHA)
     stream = sd.InputStream(callback=audio_callback)
